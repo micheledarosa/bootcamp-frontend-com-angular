@@ -9,9 +9,9 @@ Classificação:
 - média acima de 7, passou de semestre;
 */
 
-let nota1 = 8;
-let nota2 = 3;
-let nota3 = 1;
+const nota1 = 8;
+const nota2 = 3;
+const nota3 = 1;
 
 const media = (nota1 + nota2 + nota3) / 3;
 const mediaFormatada = media.toFixed(1)

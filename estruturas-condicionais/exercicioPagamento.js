@@ -10,8 +10,8 @@ Código Condição de pagamento:
 4 -  3x ou mais no cartão, 10% juros.
 */
 
-let precoProduto = 100;
-let formaPagamento = 4;
+const precoProduto = 100;
+const formaPagamento = 4;
 
 const valorFinalProduto = formaPagamento === 1 ? precoProduto - (precoProduto * 0.1)
     : formaPagamento === 2 ? precoProduto - (precoProduto * 0.15)
