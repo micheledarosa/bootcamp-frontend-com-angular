@@ -13,11 +13,11 @@ IMC em adultos Condição:
 
 */
 
-let peso = 66;
+const peso = 66;
 const altura = 1.63;
 const imc = peso / Math.pow(altura, 2);
 
-condicao = imc < 18.5 ? "Abaixo do peso" 
+const condicao = imc < 18.5 ? "Abaixo do peso" 
     : imc >= 18.5 && imc <= 25 ? "Peso normal"
     : imc > 25 && imc <= 30 ? "Acima do peso"
     : imc > 30 && imc <= 40 ? "Obeso"
